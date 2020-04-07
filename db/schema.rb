@@ -10,9 +10,51 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 2020_04_07_171857) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "holes", force: :cascade do |t|
+    t.integer "number"
+    t.integer "par"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.integer "round_id"
+  end
+
+  create_table "rounds", force: :cascade do |t|
+    t.string "play_date"
+    t.string "strokes1"
+    t.string "strokes2"
+    t.string "strokes3"
+    t.string "strokes4"
+    t.string "strokes5"
+    t.string "strokes6"
+    t.string "strokes7"
+    t.string "strokes8"
+    t.string "strokes9"
+    t.string "strokes10"
+    t.string "strokes11"
+    t.string "strokes12"
+    t.string "strokes13"
+    t.string "strokes14"
+    t.string "strokes15"
+    t.string "strokes16"
+    t.string "strokes17"
+    t.string "strokes18"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.integer "user_id"
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "username"
+    t.string "password_digest"
+    t.string "first_name"
+    t.string "last_name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
 end
