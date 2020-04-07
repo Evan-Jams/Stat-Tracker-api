@@ -1,0 +1,43 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  play_date: MyString
+  strokes1: MyString
+  strokes2: MyString
+  strokes3: MyString
+  strokes4: MyString
+  strokes5: MyString
+  strokes6: MyString
+  strokes7: MyString
+  strokes8: MyString
+  strokes9: MyString
+  strokes10: MyString
+  strokes11: MyString
+  strokes12: MyString
+  strokes13: MyString
+  strokes14: MyString
+  strokes15: MyString
+  strokes16: MyString
+  strokes17: MyString
+  strokes18: MyString
+
+two:
+  play_date: MyString
+  strokes1: MyString
+  strokes2: MyString
+  strokes3: MyString
+  strokes4: MyString
+  strokes5: MyString
+  strokes6: MyString
+  strokes7: MyString
+  strokes8: MyString
+  strokes9: MyString
+  strokes10: MyString
+  strokes11: MyString
+  strokes12: MyString
+  strokes13: MyString
+  strokes14: MyString
+  strokes15: MyString
+  strokes16: MyString
+  strokes17: MyString
+  strokes18: MyString
