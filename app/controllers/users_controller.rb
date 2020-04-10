@@ -7,7 +7,7 @@ class UsersController < ApplicationController
   def index
     @users = User.all
 
-    render json: @users
+    render json: @users.to_json(include: :rounds)
   end
 
   # GET /users/1
@@ -16,7 +16,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    render json: get_current_user
+    render json: get_current_user.to_json(include: :rounds)
   end
 
   # POST /users

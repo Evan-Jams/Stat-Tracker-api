@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
-  resources :rounds
+  resources :rounds do
+    resources :holes
+  end
   resources :holes
-  resources :stats
-  resources :profiles
   resources :users do
     collection do
       post '/login', to: 'users#login'

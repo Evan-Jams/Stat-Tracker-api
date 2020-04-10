@@ -16,6 +16,7 @@ class HolesController < ApplicationController
   # POST /holes
   def create
     @hole = Hole.new(hole_params)
+    @hole.round_id = params[:round_id]
 
     if @hole.save
       render json: @hole, status: :created, location: @hole

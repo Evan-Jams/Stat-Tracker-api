@@ -5,17 +5,18 @@ class RoundsController < ApplicationController
   def index
     @rounds = Round.all
 
-    render json: @rounds
+    render json: @rounds.to_json(include: :holes)
   end
 
   # GET /rounds/1
   def show
-    render json: @round
+    render json: @round.to_json(include: :holes)
   end
 
   # POST /rounds
   def create
     @round = Round.new(round_params)
+    @round.user_id = params[:user_id]
 
     if @round.save
       render json: @round, status: :created, location: @round
