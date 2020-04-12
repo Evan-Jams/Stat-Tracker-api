@@ -10,17 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_04_07_171857) do
+ActiveRecord::Schema.define(version: 2020_04_12_194124) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "holes", force: :cascade do |t|
-    t.integer "number"
+    t.integer "hole_number"
     t.integer "par"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.integer "round_id"
   end
 
   create_table "rounds", force: :cascade do |t|

@@ -5,12 +5,12 @@ class RoundsController < ApplicationController
   def index
     @rounds = Round.all
 
-    render json: @rounds.to_json(include: :holes)
+    render json: @rounds.to_json
   end
 
   # GET /rounds/1
   def show
-    render json: @round.to_json(include: :holes)
+    render json: @round.to_json
   end
 
   # POST /rounds

@@ -1,5 +1,4 @@
 class User < ApplicationRecord
   has_many :rounds
-  has_many :holes, through: :rounds
-  has_secure_password
+  has_secure_password(attribute = :password, validations: true)
 end
