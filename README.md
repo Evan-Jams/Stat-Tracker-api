@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Golf Stats Tracker api
 
-Things you may want to cover:
+Built by Evan James using Ruby on Rails
 
-* Ruby version
+You can find the client side at https://golf-stat-tracker-client.herokuapp.com/
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ruby version 2.6.3p62
