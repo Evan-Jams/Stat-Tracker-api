@@ -1,5 +1,5 @@
 class HolesController < ApplicationController
-  before_action :set_hole, only: [:show, :update, :destroy]
+  before_action :set_hole, only: [:index ,:show, :update, :destroy]
 
   # GET /holes
   def index

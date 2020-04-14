@@ -29,25 +29,26 @@
 #   user_id: 1}
 #   ])
 
-# Hole.create([
-#   {hole_number: 2, par: 4},
-#   {hole_number: 3, par: 3},
-#   {hole_number: 4, par: 4},
-#   {hole_number: 5, par: 4},
-#   {hole_number: 6, par: 4},
-#   {hole_number: 7, par: 5},
-#   {hole_number: 8, par: 4},
-#   {hole_number: 9, par: 4},
-#   {hole_number: 10, par: 4},
-#   {hole_number: 11, par: 4},
-#   {hole_number: 12, par: 3},
-#   {hole_number: 13, par: 4},
-#   {hole_number: 14, par: 5},
-#   {hole_number: 15, par: 4},
-#   {hole_number: 16, par: 4},
-#   {hole_number: 17, par: 4},
-#   {hole_number: 18, par: 4}
-#   ])
+Hole.create([
+  {hole_number: 1, par: 4},
+  {hole_number: 2, par: 4},
+  {hole_number: 3, par: 3},
+  {hole_number: 4, par: 4},
+  {hole_number: 5, par: 4},
+  {hole_number: 6, par: 4},
+  {hole_number: 7, par: 5},
+  {hole_number: 8, par: 4},
+  {hole_number: 9, par: 4},
+  {hole_number: 10, par: 4},
+  {hole_number: 11, par: 4},
+  {hole_number: 12, par: 3},
+  {hole_number: 13, par: 4},
+  {hole_number: 14, par: 5},
+  {hole_number: 15, par: 4},
+  {hole_number: 16, par: 4},
+  {hole_number: 17, par: 4},
+  {hole_number: 18, par: 4}
+  ])
 
   # ,
   # {number: 2, par: 4},
